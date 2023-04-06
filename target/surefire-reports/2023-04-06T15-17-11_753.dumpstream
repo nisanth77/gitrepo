@@ -1,0 +1,5 @@
+# Created at 2023-04-06T15:17:13.578
+Boot Manifest-JAR contains absolute paths in classpath 'D:\eclipse\Rocky\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

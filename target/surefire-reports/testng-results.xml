@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[pass]]>
+    </line>
+    <line>
+      <![CDATA[You can use the height and width attributes to specify the size of the iframe:]]>
+    </line>
+    <line>
+      <![CDATA[This page is displayed in an iframe]]>
+    </line>
+    <line>
+      <![CDATA[You can use the height and width attributes to specify the size of the iframe:]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-06T15:17:21 IST" name="Suite" finished-at="2023-04-06T15:19:07 IST" duration-ms="106092">
+    <groups>
+    </groups>
+    <test started-at="2023-04-06T15:17:21 IST" name="Test" finished-at="2023-04-06T15:19:07 IST" duration-ms="106092">
+      <class name="com.trello.qspiders.frames.HandlingNestedFrame">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.trello.qspiders.frames.HandlingNestedFrame@5fdcaa40]" started-at="2023-04-06T15:18:16 IST" name="configBeforeMethod" finished-at="2023-04-06T15:18:25 IST" duration-ms="9231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="nestedFrames()[pri:0, instance:com.trello.qspiders.frames.HandlingNestedFrame@5fdcaa40]" started-at="2023-04-06T15:18:25 IST" name="nestedFrames" finished-at="2023-04-06T15:18:36 IST" duration-ms="11093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nestedFrames -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.trello.qspiders.frames.HandlingNestedFrame@5fdcaa40]" started-at="2023-04-06T15:19:05 IST" name="configAfterMethod" finished-at="2023-04-06T15:19:06 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+      </class> <!-- com.trello.qspiders.frames.HandlingNestedFrame -->
+      <class name="com.trello.qspiders.frames.HandlingIndividualFramesTest">
+        <test-method signature="individualFramesTest()[pri:0, instance:com.trello.qspiders.frames.HandlingIndividualFramesTest@130161f7]" started-at="2023-04-06T15:17:21 IST" name="individualFramesTest" finished-at="2023-04-06T15:18:16 IST" duration-ms="54590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- individualFramesTest -->
+      </class> <!-- com.trello.qspiders.frames.HandlingIndividualFramesTest -->
+      <class name="com.trello.qspiders.frames.TravelBackParent">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.trello.qspiders.frames.TravelBackParent@6dc17b83]" started-at="2023-04-06T15:18:36 IST" name="configBeforeMethod" finished-at="2023-04-06T15:18:41 IST" duration-ms="4641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="travelBackToParent()[pri:0, instance:com.trello.qspiders.frames.TravelBackParent@6dc17b83]" started-at="2023-04-06T15:18:41 IST" name="travelBackToParent" finished-at="2023-04-06T15:19:05 IST" duration-ms="24198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[You can use the height and width attributes to specify the size of the iframe:]]>
+            </line>
+            <line>
+              <![CDATA[This page is displayed in an iframe]]>
+            </line>
+            <line>
+              <![CDATA[You can use the height and width attributes to specify the size of the iframe:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- travelBackToParent -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.trello.qspiders.frames.TravelBackParent@6dc17b83]" started-at="2023-04-06T15:19:06 IST" name="configAfterMethod" finished-at="2023-04-06T15:19:07 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+      </class> <!-- com.trello.qspiders.frames.TravelBackParent -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
