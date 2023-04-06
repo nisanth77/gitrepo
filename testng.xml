@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.trello.qspiders.frames.HandlingIndividualFramesTest"/>
-      
+      <class name="com.trello.qspiders.frames.LoginPage"></class>
       <class name="com.trello.qspiders.frames.HandlingNestedFrame"></class>
       <class name="com.trello.qspiders.frames.TravelBackParent"></class>
     </classes>

@@ -1,3 +1,4 @@
+package com.trello.qspiders.frames;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.time.Duration;

@@ -1,0 +1,7 @@
+{
+"name":"username",
+"password": "password",
+"loginbutton":"//button[text()=' Login ']",
+"profile":"//div//*[contains(@class,'oxd-icon bi-caret')]",
+"logout":"Logout"
+}
